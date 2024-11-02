@@ -37,4 +37,18 @@ The project will employ data analysis techniques using tools such as Excel, SQL 
 ### Expected Outcomes
 By the end of this project, we aim to deliver actionable insights that can guide marketing strategies, improve customer retention efforts, and ultimately enhance overall business performance.
 
+## Data Cleaning 
+Data cleaning is a crucial step in the data analysis process, ensuring that the dataset is accurate, consistent, and usable for analysis. In this project, several data cleaning techniques were employed to prepare the customer data for analysis.
+1. **Validating Data Types:**
+- Ensured that each feature was of the correct data type (e.g., Subscription Start and Subscription End as date types, Revenue as a numeric type).
+- Converted data types as necessary to facilitate accurate calculations and analysis.
 
+2. **Creating New Features:**
+- Derived additional features such as Subscription Duration by calculating the difference between Subscription End and Subscription Start for relevant records.
+- The formula used is `=(F2-E2)`
+
+  Through these data cleaning steps, the dataset was transformed into a reliable foundation for further analysis, enabling accurate insights into customer behavior and subscription dynamics.
+  
+
+ 
+  
