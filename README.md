@@ -30,3 +30,11 @@ The dataset comprises several key features that provide insights into customer c
 - Canceled: A flag indicating whether the subscription has been canceled.
 - Revenue: Total revenue generated from the customer.
 - Subscription Duration: The length of time the customer has been subscribed.
+
+### Methodology
+The project will employ data analysis techniques using tools such as Excel, SQL Server, and Power BI. The analysis will focus on key metrics such as average subscription duration and the most popular subscription type, providing a robust understanding of customer dynamics.
+
+### Expected Outcomes
+By the end of this project, we aim to deliver actionable insights that can guide marketing strategies, improve customer retention efforts, and ultimately enhance overall business performance.
+
+
