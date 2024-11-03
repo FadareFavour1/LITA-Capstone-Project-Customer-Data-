@@ -72,6 +72,8 @@ To facilitate a deeper understanding of the Customer data, Pivot Tables were emp
 
 Several Pivot Tables were created to explore different dimensions of the sales data :
 
+Cancellation Rates by Subscription Type:
+![image](https://github.com/user-attachments/assets/28d259bc-f552-4b55-aca8-541bdefeeef8)
 
 
 
