@@ -5,6 +5,8 @@
 
 [Project Overview](#Project-Overview)
 
+[Data Cleaning](#Data-Cleaning)
+
 
 
 ## Project Title
@@ -49,6 +51,7 @@ Data cleaning is a crucial step in the data analysis process, ensuring that the 
 
   Through these data cleaning steps, the dataset was transformed into a reliable foundation for further analysis, enabling accurate insights into customer behavior and subscription dynamics.
   
+## Data Analysis 
 
  
   
