@@ -7,6 +7,8 @@
 
 [Data Cleaning](#Data-Cleaning)
 
+[Exploratory Data Analysis](#Exploratory-Data-Analysis)
+
 
 
 ## Project Title
@@ -51,7 +53,20 @@ Data cleaning is a crucial step in the data analysis process, ensuring that the 
 
   Through these data cleaning steps, the dataset was transformed into a reliable foundation for further analysis, enabling accurate insights into customer behavior and subscription dynamics.
   
-## Data Analysis 
+## Exploratory Data Analysis 
+This section describes how we analyzed the customer data to uncover key trends in cancellations and revenue by region and subscription type. We used Excel, SQL, and Power BI to perform these analyses.
+
+### Excel Analysis 
+- Average Subscription Duration : The formula used for this was `=AVERAGE(I2:I75001)`
+- Basic Subscription Type : THe formula used to find this was `=COUNTIF(D2:D75001,D2)`
+- Premium Subscription type : This formula was used `=COUNTIF(D2:D75001,D3)`
+- Standard Subscription type : This was the formula used `=COUNTIF(D2:D75001,D5)`
+- 
+
+
+   
+
+
 
  
   
