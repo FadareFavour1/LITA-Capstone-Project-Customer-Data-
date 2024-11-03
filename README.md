@@ -57,11 +57,27 @@ Data cleaning is a crucial step in the data analysis process, ensuring that the 
 This section describes how we analyzed the customer data to uncover key trends in cancellations and revenue by region and subscription type. We used Excel, SQL, and Power BI to perform these analyses.
 
 ### Excel Analysis 
+Excel was utilized for its robust data visualization and analytical capabilities. The following analyses were conducted:
+
+**Descriptive Statistics:**
+Using Excel functions such as SUM, AVERAGEIF, and SUMIF, we calculated key metrics including Average Subscription Duration and Finding the most popular subscription type
+
 - Average Subscription Duration : The formula used for this was `=AVERAGE(I2:I75001)`
 - Basic Subscription Type : THe formula used to find this was `=COUNTIF(D2:D75001,D2)`
 - Premium Subscription type : This formula was used `=COUNTIF(D2:D75001,D3)`
 - Standard Subscription type : This was the formula used `=COUNTIF(D2:D75001,D5)`
-- 
+
+**Pivot Tables:**
+To facilitate a deeper understanding of the Customer data, Pivot Tables were employed in Excel. A Pivot Table is a powerful tool that allows users to summarize and analyze large datasets interactively, enabling quick insights into data patterns and trends.
+
+Several Pivot Tables were created to explore different dimensions of the sales data :
+
+
+
+
+Analysis Performed in SQL
+SQL was employed for more complex queries and data manipulations, leveraging its ability to handle large datasets efficiently. Key analyses performed included:
+
 
 
    
