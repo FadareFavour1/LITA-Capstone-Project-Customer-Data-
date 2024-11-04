@@ -34,7 +34,7 @@ The dataset comprises several key features that provide insights into customer c
 - Region: Geographic location of the customer.
 - Subscription Type: The type of subscription plan selected by the customer.
 - Subscription Start: The date when the customer's subscription commenced.
-- Subscription End: The date when the customer's subscription ended (if applicable).
+- Subscription End: The date when the customer's subscription ended.
 - Canceled: A flag indicating whether the subscription has been canceled.
 - Revenue: Total revenue generated from the customer.
 - Subscription Duration: The length of time the customer has been subscribed.
