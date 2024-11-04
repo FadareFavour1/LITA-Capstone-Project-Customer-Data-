@@ -74,7 +74,8 @@ Several Pivot Tables were created to explore different dimensions of the sales d
 
 1. Cancellation Rates by Subscription Type:
 
-  ![image](https://github.com/user-attachments/assets/6c667e46-b798-4b8b-9c43-6076123301df)
+  ![Screenshot (49)](https://github.com/user-attachments/assets/c7b2bbd5-0a25-49ef-80fa-3192fe847664)
+
 
 - Purpose: This setup shows how many subscriptions of each type were canceled versus how many remained active, helping us to identify problematic subscription types.
 
@@ -82,15 +83,72 @@ Several Pivot Tables were created to explore different dimensions of the sales d
 
 ![image](https://github.com/user-attachments/assets/1bbd696c-44f5-4140-bb31-23ec9a749b07)
 
+- Purpose: This helps to identify which regions are generating the most revenue and which subscription types are most popular in those regions.
+
+3. Average Subscription Duration by Subscription Type:
+
+![image](https://github.com/user-attachments/assets/096bed7b-2dd6-4370-9d8f-6f967b6c345e)
+
+- Purpose : This provides insight into which subscription types have longer durations, indicating higher customer satisfaction or engagement.
+
+4. Trend Analysis Over Time:
+   
+![image](https://github.com/user-attachments/assets/d766f57a-2938-4683-aa50-c974373c8d64)
+
+- Purpose : It helps to identify peak subscription months and any seasonality in subscriptions.
+
+   This analysis will help to make data-driven decisions to enhance customer retention and improve revenue strategies
 
 Analysis Performed in SQL
 SQL was employed for more complex queries and data manipulations, leveraging its ability to handle large datasets efficiently. Key analyses performed included:
 
+- Total Number Of Customers from each Region
+  ```sql
+    SELECT Region, COUNT(CustomerName)AS NumberofCustomers
+    FROM [LITA Capstone CustomerData]
+    GROUP BY Region
 
+- Most Popular Subscription Type by the Number of Customers
+  ```sql
+    SELECT TOP 1 SubscriptionType,COUNT(CustomerName) as NumberofCustomer
+    FROM [dbo].[LITA Capstone CustomerData]
+    GROUP BY SubscriptionType
+    ORDER BY NumberofCustomer
 
-   
+- Customers who Canceled and their Subscription within 6 months
+  ```sql
+  SELECT CustomerID,CustomerName,SubscriptionType,SubscriptionStart,SubscriptionEnd
+  FROM [LITA Capstone CustomerData]
+  WHERE Canceled = 1
+  AND DATEDIFF(Day,SubscriptionStart,SubscriptionEnd)<= 180
 
+- The Average Subscription Duration for all Customers
+  ```sql
+  SELECT avg(Datediff(Day,SubscriptionStart,SubscriptionEnd)) AS AverageSubscriptionDuration 
+  FROM [LITA Capstone CustomerData]
 
+- Customers with Subscription longer than 12 months
+  ```sql
+    SELECT CustomerID,CustomerName,SubscriptionType,SubscriptionStart,SubscriptionEnd
+    FROM [LITA Capstone CustomerData]
+    WHERE Datediff(Day,SubscriptionStart,SubscriptionEnd) > 365
 
- 
+- Total Revenue by Subscription Type
+  ```sql
+    SELECT SubscriptionType, Sum(Revenue) AS TotalRevenue from [LITA Capstone CustomerData]
+    GROUP BY SubscriptionType
+
+- The Top 3 Regions by Subscription Cancellation
+  ```sql
+    SELECT TOP 3 Region,Count(CustomerID) AS Top3CanceledSubscription
+    FROM [LITA Capstone CustomerData]
+    WHERE canceled = 1
+    GROUP BY Region
+    ORDER BY Top3CanceledSubscription
+
+- Total Number Of Active and Canceled Subscription
+  ```sql
+    SELECT Canceled,Count(CustomerID) AS TotalSubscription
+    FROM [LITA Capstone CustomerData]
+    GROUP BY Canceled
   
