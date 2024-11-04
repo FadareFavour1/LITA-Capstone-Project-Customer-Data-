@@ -9,6 +9,8 @@
 
 [Exploratory Data Analysis](#Exploratory-Data-Analysis)
 
+[Data Visualization](#Data-Visualization)
+
 
 
 ## Project Title
@@ -151,4 +153,8 @@ SQL was employed for more complex queries and data manipulations, leveraging its
     SELECT Canceled,Count(CustomerID) AS TotalSubscription
     FROM [LITA Capstone CustomerData]
     GROUP BY Canceled
-  
+
+  ## Data Visualization 
+  Data visualization is essential for uncovering patterns and trends in customer data, especially when analyzing subscription behaviors. Using Power BI is a powerful choice for this, given its flexibility and advanced visualization options. 
+Here are some of the Visualization done in Power BI
+- 
