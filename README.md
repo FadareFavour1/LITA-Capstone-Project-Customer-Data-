@@ -11,6 +11,8 @@
 
 [Data Visualization](#Data-Visualization)
 
+[Conclusion](#Conclusion)
+
 
 
 ## Project Title
@@ -169,7 +171,7 @@ Here are some of the Visualization done in Power BI
 
 - Cancellation Rates by Subscription Type
   
-Visualization : Pie Chart
+Visualization Type : Pie Chart
 
 ![Screenshot (51)](https://github.com/user-attachments/assets/a09ce953-05a3-400a-8645-abcd05e75d9f)
 
@@ -178,15 +180,69 @@ From this Chart Basic Subscription has the highest Subscription rate
 
 - Sum of Revenue By Region
  
-Visualization : Donut Chart
+Visualization Type : Donut Chart
 
   ![Screenshot (52)](https://github.com/user-attachments/assets/f129dec6-373c-4c8a-8dbe-02afd2a59684)
 
 Purpose : It helps us to Know the Region with the highest Revenue
 
-- Number of Active and Canceled Subsription
-  
-Visualization : Card
+- Number of Active and Canceled Subscription: Filter was used to Seperate the Active and Canceled Subscription
 
-  
+Visualization Type : Card
 
+
+![Screenshot (54)](https://github.com/user-attachments/assets/1120da1c-5994-4fd4-8b40-31e5efea554c)
+
+
+![Screenshot (53)](https://github.com/user-attachments/assets/0eb82ca7-daff-4dc0-a3be-fc92b5883fc2)
+
+- Monthly Subscription Trends
+- 
+Visualization Type : Line Chart
+
+![Screenshot (55)](https://github.com/user-attachments/assets/e8dd0144-6c68-496b-9224-09fc10df4ab0)
+
+Purpose : This time-based analysis reveals seasonality or trends in new subscriptions, helping predict demand cycles or identify high-growth periods.
+
+- Active Subscription by Subscription Type
+
+Visualization Type : Pie Chart
+
+![Screenshot (56)](https://github.com/user-attachments/assets/7961e4a4-fc76-409c-85d8-7699d3283a2a)
+
+- Revenue by Subscription Type
+- 
+Visualization Type : Pie Chart
+
+![Screenshot (57)](https://github.com/user-attachments/assets/1e66cfd4-f0e8-46f8-962d-dc58f86a0727)
+
+Purpose : This helps us to Know the Subscription Type that generates the highest Revenue
+
+
+## Conclusion
+
+### Objective Recap
+The primary objective of this analysis was to uncover insights into customer subscription patterns, with a focus on identifying regions with high cancellation rates, understanding revenue contributions by subscription type, and exploring subscription duration trends.
+
+
+### Key Findings 
+ **Revenue Distribution**:
+   - Basic Subscription Type consistently generates the highest revenue across all regions
+     
+ **Subscription Duration**:    
+   - Customers on Basic Subscription Type tend to have longer durations, durations.
+     
+ **Seasonal Trends**:
+   - A noticeable spike in new subscriptions occurs in August year, suggesting a seasonal pattern that may align with marketing campaigns or product launches.
+
+## Recommendations
+Based on these findings, the following recommendations are suggested:
+1. **Focus on High-Performing Subscription Types**:
+   - Increase marketing efforts for Basic Subscription, particularly in high-revenue regions, to maximize its performance. Additionally, consider improving the offerings of Premium and Standard Subscription or replacing it if it does not meet customer needs.
+2. **Enhance Subscription Duration**:
+   - For Basic Subscription, explore initiatives to increase subscription duration, such as discounts for long-term commitments or added features to boost engagement.
+3. **Leverage Seasonal Demand**:
+   - Prepare marketing campaigns to coincide with the spike, potentially maximizing new subscriptions through promotions or limited-time offers.
+
+
+This analysis provides valuable insights that can drive targeted strategies to improve customer retention, boost revenue, and enhance overall customer satisfaction.
