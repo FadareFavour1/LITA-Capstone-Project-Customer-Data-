@@ -72,10 +72,15 @@ To facilitate a deeper understanding of the Customer data, Pivot Tables were emp
 
 Several Pivot Tables were created to explore different dimensions of the sales data :
 
-Cancellation Rates by Subscription Type:
+1. Cancellation Rates by Subscription Type:
 
-[image](https://github.com/user-attachments/assets/28d259bc-f552-4b55-aca8-541bdefeeef8)
+  ![image](https://github.com/user-attachments/assets/6c667e46-b798-4b8b-9c43-6076123301df)
 
+- Purpose: This setup shows how many subscriptions of each type were canceled versus how many remained active, helping us to identify problematic subscription types.
+
+2. Total Revenue by Region and Subscription Type:
+
+![image](https://github.com/user-attachments/assets/1bbd696c-44f5-4140-bb31-23ec9a749b07)
 
 
 Analysis Performed in SQL
