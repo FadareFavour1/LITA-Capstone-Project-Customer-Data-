@@ -197,7 +197,7 @@ Visualization Type : Card
 ![Screenshot (53)](https://github.com/user-attachments/assets/0eb82ca7-daff-4dc0-a3be-fc92b5883fc2)
 
 - Monthly Subscription Trends
-- 
+ 
 Visualization Type : Line Chart
 
 ![Screenshot (55)](https://github.com/user-attachments/assets/e8dd0144-6c68-496b-9224-09fc10df4ab0)
@@ -211,7 +211,7 @@ Visualization Type : Pie Chart
 ![Screenshot (56)](https://github.com/user-attachments/assets/7961e4a4-fc76-409c-85d8-7699d3283a2a)
 
 - Revenue by Subscription Type
-- 
+ 
 Visualization Type : Pie Chart
 
 ![Screenshot (57)](https://github.com/user-attachments/assets/1e66cfd4-f0e8-46f8-962d-dc58f86a0727)
