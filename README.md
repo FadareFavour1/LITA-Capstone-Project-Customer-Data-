@@ -156,7 +156,37 @@ SQL was employed for more complex queries and data manipulations, leveraging its
     FROM [LITA Capstone CustomerData]
     GROUP BY Canceled
 
-  ## Data Visualization 
+ ## Data Visualization 
   Data visualization is essential for uncovering patterns and trends in customer data, especially when analyzing subscription behaviors. Using Power BI is a powerful choice for this, given its flexibility and advanced visualization options. 
 Here are some of the Visualization done in Power BI
-- 
+- Average Subscription Rate
+  This was done by creating measure on Power BI, the formula used was
+  
+  `AverageSubscriptionDuration = AVERAGE(CustomerData[Subscription Duration])`
+
+ ![Screenshot (50)](https://github.com/user-attachments/assets/6c7aaa7d-52c2-45b9-b85a-1650ac2be0ed)
+
+
+- Cancellation Rates by Subscription Type
+  
+Visualization : Pie Chart
+
+![Screenshot (51)](https://github.com/user-attachments/assets/a09ce953-05a3-400a-8645-abcd05e75d9f)
+
+Purpose : This chart highlights which subscription types have the highest cancellation rates, helping identify areas where retention strategies are needed.
+From this Chart Basic Subscription has the highest Subscription rate
+
+- Sum of Revenue By Region
+ 
+Visualization : Donut Chart
+
+  ![Screenshot (52)](https://github.com/user-attachments/assets/f129dec6-373c-4c8a-8dbe-02afd2a59684)
+
+Purpose : It helps us to Know the Region with the highest Revenue
+
+- Number of Active and Canceled Subsription
+  
+Visualization : Card
+
+  
+
