@@ -76,7 +76,9 @@ Several Pivot Tables were created to explore different dimensions of the sales d
 
 1. Cancellation Rates by Subscription Type:
 
-  ![Screenshot (49)](https://github.com/user-attachments/assets/c7b2bbd5-0a25-49ef-80fa-3192fe847664)
+
+![image](https://github.com/user-attachments/assets/cafe9614-f2c5-4efc-bf83-911237ebbf11)
+
 
 
 - Purpose: This setup shows how many subscriptions of each type were canceled versus how many remained active, helping us to identify problematic subscription types.
